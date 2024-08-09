@@ -26,4 +26,4 @@ All code was written by me, with some additional support from my tutors.
 
 The 3D models were sourced from the Unity Asset Store.
 
-All music and sound effects are royalty-free, sourced from Pixabay.
+All music and sound effects are royalty-free, sourced from https://pixabay.com.

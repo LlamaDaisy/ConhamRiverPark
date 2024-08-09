@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1677169376696907208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2440166083905455063}
+  m_Layer: 0
+  m_Name: Kayaks
+  m_TagString: kayaks
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2440166083905455063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677169376696907208}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -104.32847, y: 105.70788, z: 110.18491}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5296037912293280291}
+  - {fileID: 9147139903989108435}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4362284278347183471
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2440166083905455063}
+    m_Modifications:
+    - target: {fileID: 8500188173997555532, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.383293
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500188173997555532, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.592659
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500188173997555532, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.898033
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500188173997555532, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.58222514
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500188173997555532, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500188173997555532, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8130276
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500188173997555532, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500188173997555532, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500188173997555532, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 108.786
+      objectReference: {fileID: 0}
+    - target: {fileID: 8500188173997555532, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9132575153176831478, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      propertyPath: m_Name
+      value: KayakV1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9132575153176831478, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      propertyPath: m_TagString
+      value: kayaks
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9132575153176831478, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5355774879147292846}
+    - targetCorrespondingSourceObject: {fileID: 9132575153176831478, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6560189971245963427}
+  m_SourcePrefab: {fileID: 100100000, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+--- !u!1 &4770612484800139417 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9132575153176831478, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+  m_PrefabInstance: {fileID: 4362284278347183471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5355774879147292846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4770612484800139417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &6560189971245963427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4770612484800139417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4fdb1d6ba6c268468780f2e3d56c8fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Kayak
+--- !u!4 &5296037912293280291 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8500188173997555532, guid: efe6cae2beca91d439404e51d806bb38, type: 3}
+  m_PrefabInstance: {fileID: 4362284278347183471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6438180187576173054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2440166083905455063}
+    m_Modifications:
+    - target: {fileID: 2857579603910577965, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.96891
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857579603910577965, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.6426544
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857579603910577965, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.030769
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857579603910577965, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.77500224
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857579603910577965, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.029327085
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857579603910577965, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.63024676
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857579603910577965, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.036062945
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857579603910577965, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857579603910577965, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 78.237
+      objectReference: {fileID: 0}
+    - target: {fileID: 2857579603910577965, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -5.328
+      objectReference: {fileID: 0}
+    - target: {fileID: 3234702937151083927, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+      propertyPath: m_Name
+      value: KayakV2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3234702937151083927, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+      propertyPath: m_TagString
+      value: kayaks
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+--- !u!4 &9147139903989108435 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2857579603910577965, guid: aa74771a7ece56c4ea7d62dba54848b3, type: 3}
+  m_PrefabInstance: {fileID: 6438180187576173054}
+  m_PrefabAsset: {fileID: 0}
